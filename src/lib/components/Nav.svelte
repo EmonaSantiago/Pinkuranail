@@ -37,6 +37,7 @@
     color: white;
     margin: 0 10px;
     font-weight: bold;
+    font-size: 1.5em;
   }
 
   .nav-link:hover {
@@ -46,6 +47,10 @@
   @media only screen and (max-width: 375px) {
     .nav-header {
       padding: 0 20px;
+    }
+
+    .nav-link {
+      font-size: 16px;
     }
   }
 </style>
