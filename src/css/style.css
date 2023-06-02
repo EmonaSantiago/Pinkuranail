@@ -1,8 +1,19 @@
+
+:root {
+	--pink: #FFC9DC;
+	--zalm: #FFC9DC;
+    --l-pink: #FFECED;
+    --blue: #ACD6FC; 
+    --purple: #8F93DF; 
+    --red: #FF7394; 
+}
+
 * {
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
    
-    background-color: rgb(237, 14, 204);
+    background-color: var(--l-pink);
 }
