@@ -23,7 +23,7 @@
 <style>
   body {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     padding: 0;
   }
@@ -33,7 +33,7 @@
   }
 
   .footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;

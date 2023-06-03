@@ -2,15 +2,13 @@
   import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/logo.png";
 </script>
 
-<body>
-  <header class="nav-header">
-    <a href="/Online-Boeken" class="nav-link">Boeken</a>
-    <div>
-      <img src={Image} alt="My Image" />
-    </div>
-    <a href="/Over-ons" class="nav-link">Over ons</a>
-  </header>
-</body>
+<header class="nav-header">
+  <a href="/Online-Boeken" class="nav-link">Boeken</a>
+  <div>
+    <img src={Image} alt="My Image" />
+  </div>
+  <a href="/Over-ons" class="nav-link">Over ons</a>
+</header>
 
 <style>
   .nav-header {
@@ -20,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 300px;
+    width: auto;
   }
 
   img {

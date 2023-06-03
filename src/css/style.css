@@ -14,6 +14,13 @@
 }
 
 body {
-   
+   margin-left: 2em;
+   margin-right: 2em;
     background-color: var(--l-pink);
+}
+
+@media (max-width: 768px) {
+body {
+    margin: 0;
+}
 }
