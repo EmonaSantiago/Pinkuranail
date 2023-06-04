@@ -1,20 +1,29 @@
 <script>
-  import Instagram from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/instagram-logo.png";
-  import Tiktok from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/tiktok-logo.png";
-  import House from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/home.png";
+  // import Instagram from "./images/instagram-logo.png";
+  // import Tiktok from "./images/tiktok-logo.png";
+  // import House from "./images/home.png";
 </script>
 
 <body>
   <footer class="footer">
     <div class="footer-icons">
       <a href="#" class="footer-icon">
-        <img src={Instagram} alt="My Image" />
+        <img
+          src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/instagram-logo.png"
+          alt="My Image"
+        />
       </a>
       <a href="#" class="footer-icon">
-        <img src={Tiktok} alt="My Image" />
+        <img
+          src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/tiktok-logo.png"
+          alt="My Image"
+        />
       </a>
       <a href="#" class="footer-icon">
-        <img src={House} alt="My Image" />
+        <img
+          src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/home.png"
+          alt="My Image"
+        />
       </a>
     </div>
   </footer>

@@ -1,9 +1,3 @@
-<script>
-  import images from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Hero-Nails.png";
-  import nail1 from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/nail1.png";
-  import Reclame from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Reclame.png";
-</script>
-
 <!-- Hero section -->
 <section class="hero">
   <div class="hero-content">
@@ -15,7 +9,7 @@
     <a href="#nails" class="button">Check the nails !</a>
   </div>
   <div class="hero-image">
-    <img src={images} alt="My Image" />
+    <img src="/images/Hero-Nails.png" alt="My Image" />
   </div>
 </section>
 
@@ -29,19 +23,42 @@
   </p>
 
   <div class="image-collage">
-    <img src={nail1} alt="Afbeelding 1" />
-    <img src={nail1} alt="Afbeelding 1" />
-    <img src={nail1} alt="Afbeelding 1" />
-    <img src={nail1} alt="Afbeelding 1" />
-    <img src={nail1} alt="Afbeelding 1" />
-    <img src={nail1} alt="Afbeelding 1" />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
+    <img
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
+      alt="Afbeelding 1"
+    />
   </div>
   <a href="#nails" class="button">Check the nails !</a>
 </section>
 
 <div class="container">
   <div class="left-content">
-    <img class="reclame" src={Reclame} alt="My Image" width="100%" />
+    <img
+      class="reclame"
+      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/Reclame.png"
+      alt="My Image"
+      width="100%"
+    />
 
     <!-- Jouw tekst hier -->
   </div>
