@@ -1,6 +1,7 @@
 <script>
   import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Hero-Nails.png";
   import nail1 from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/nail1.png";
+  import Reclame from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Reclame.png";
 </script>
 
 <!-- Hero section -->
@@ -37,6 +38,23 @@
   </div>
   <a href="#nails" class="button">Check the nails !</a>
 </section>
+
+<div class="container">
+  <div class="left-content">
+    <img class="reclame" src={Reclame} alt="My Image" width="100%" />
+
+    <!-- Jouw tekst hier -->
+  </div>
+  <div class="right-content">
+    <section id="boeken">
+      <div class="boeken-content">
+        <h2>Maak een afspraak!</h2>
+        <p>Boek nu jouw unieke stijlvolle nagelafspraak!</p>
+        <a href="#nails" class="boeken-button">ONLINE BOEKEN</a>
+      </div>
+    </section>
+  </div>
+</div>
 
 <style>
   /* Hero-sectie */
@@ -120,6 +138,62 @@
     height: auto;
   }
 
+  /* Boeken section */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .left-content {
+    flex: 1;
+  }
+
+  .right-content {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .left-content,
+    .right-content {
+      flex: 100%;
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  #boeken {
+    text-align: center;
+    padding: 2em;
+    height: 50vh;
+  }
+
+  .boeken-content {
+    display: inline-block;
+    background-color: var(--red);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 100px 200px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .boeken-button {
+    display: inline-block;
+    background-color: var(--purple);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 2em;
+  }
+
+  .reclame {
+    width: 20em;
+    height: 20em;
+    padding: 32px 32px;
+  }
   /* Media query voor mobiele weergave */
   @media (max-width: 768px) {
     .hero {
@@ -145,6 +219,10 @@
 
     .nails-title {
       font-size: 30px;
+    }
+
+    .boeken-content {
+      padding: 20px 30px;
     }
   }
 </style>
