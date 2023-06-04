@@ -10,3 +10,32 @@
     <div style="display: contents">%sveltekit.body%</div>
   </body>
 </html>
+
+<style>
+  :root {
+    --pink: #ffc9dc;
+    --zalm: #ffc9dc;
+    --l-pink: #ffeced;
+    --blue: #acd6fc;
+    --purple: #8f93df;
+    --red: #ff7394;
+  }
+
+  * {
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  body {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: var(--l-pink);
+  }
+
+  @media (max-width: 768px) {
+    body {
+      margin: 0;
+    }
+  }
+</style>
