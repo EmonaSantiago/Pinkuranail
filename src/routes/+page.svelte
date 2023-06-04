@@ -1,5 +1,5 @@
 <script>
-  import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Hero-Nails.png";
+  import images from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Hero-Nails.png";
   import nail1 from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/nail1.png";
   import Reclame from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Reclame.png";
 </script>
@@ -15,7 +15,7 @@
     <a href="#nails" class="button">Check the nails !</a>
   </div>
   <div class="hero-image">
-    <img src={Image} alt="My Image" />
+    <img src={images} alt="My Image" />
   </div>
 </section>
 
