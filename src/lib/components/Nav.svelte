@@ -1,14 +1,11 @@
 <script>
-  // import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/logo.png";
+  import myImage from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/logo.png";
 </script>
 
 <header class="nav-header">
   <a href="/Online-Boeken" class="nav-link">Boeken</a>
   <div>
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/logo.png"
-      alt="My Image"
-    />
+    <img src={myImage} alt="My Image" />
   </div>
   <a href="/Over-ons" class="nav-link">Over ons</a>
 </header>
