@@ -33,7 +33,7 @@
   .nav-link {
     text-decoration: none;
     color: white;
-    margin: 0 10px;
+    margin: 0 40px;
     font-weight: bold;
     font-size: 1.5em;
   }
@@ -49,6 +49,7 @@
 
     .nav-link {
       font-size: 16px;
+      margin: 0 10px;
     }
   }
 </style>

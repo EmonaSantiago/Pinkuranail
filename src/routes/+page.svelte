@@ -167,7 +167,6 @@
   }
   #boeken {
     text-align: center;
-    padding: 2em;
     height: 50vh;
   }
 
@@ -176,7 +175,7 @@
     background-color: var(--red);
     color: #ffffff;
     text-decoration: none;
-    padding: 100px 200px;
+    padding: 80px 80px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
@@ -225,6 +224,7 @@
 
     .boeken-content {
       padding: 20px 30px;
+      margin-top: 2em;
     }
   }
 </style>
