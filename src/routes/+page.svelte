@@ -1,3 +1,9 @@
+<script>
+  import hero from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Hero-Nails.png";
+  import nail1 from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/nail1.png";
+  import reclame from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/images/Reclame.png";
+</script>
+
 <!-- Hero section -->
 <section class="hero">
   <div class="hero-content">
@@ -9,7 +15,7 @@
     <a href="#nails" class="button">Check the nails !</a>
   </div>
   <div class="hero-image">
-    <img src="/images/Hero-Nails.png" alt="My Image" />
+    <img src={hero} alt="My Image" />
   </div>
 </section>
 
@@ -23,42 +29,19 @@
   </p>
 
   <div class="image-collage">
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
-    <img
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/nail1.png"
-      alt="Afbeelding 1"
-    />
+    <img src={nail1} alt="My Image" />
+    <img src={nail1} alt="My Image" />
+    <img src={nail1} alt="My Image" />
+    <img src={nail1} alt="My Image" />
+    <img src={nail1} alt="My Image" />
+    <img src={nail1} alt="My Image" />
   </div>
   <a href="#nails" class="button">Check the nails !</a>
 </section>
 
 <div class="container">
   <div class="left-content">
-    <img
-      class="reclame"
-      src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/Pinkuranail/src/static/images/Reclame.png"
-      alt="My Image"
-      width="100%"
-    />
+    <img class="reclame" src={reclame} alt="My Image" />
 
     <!-- Jouw tekst hier -->
   </div>
@@ -159,10 +142,13 @@
   .container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
   .left-content {
     flex: 1;
+    text-align: center;
   }
 
   .right-content {
@@ -207,9 +193,8 @@
   }
 
   .reclame {
-    width: 20em;
-    height: 20em;
-    padding: 32px 32px;
+    width: 80%;
+    height: auto;
   }
   /* Media query voor mobiele weergave */
   @media (max-width: 768px) {
