@@ -48,7 +48,7 @@
   <div class="right-content">
     <section id="boeken">
       <div class="boeken-content">
-        <h2>Maak een afspraak!</h2>
+        <h2 class="boeken-title">Maak een afspraak!</h2>
         <p>Boek nu jouw unieke stijlvolle nagelafspraak!</p>
         <a href="#nails" class="boeken-button">ONLINE BOEKEN</a>
       </div>
@@ -163,11 +163,15 @@
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 40px;
+  }
+
+  .boeken-title {
+    font-size: 40px;
+    margin-bottom: 10px;
   }
   #boeken {
     text-align: center;
-    height: 50vh;
   }
 
   .boeken-content {
@@ -222,6 +226,10 @@
       font-size: 30px;
     }
 
+    .boeken-title {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
     .boeken-content {
       padding: 20px 30px;
       margin-top: 2em;
